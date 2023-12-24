@@ -1,11 +1,13 @@
 # base2: timer1_callbacks
 
 def onDone(timerOp, segment, interrupt):
+
 # to stop round 1 from running 
 	op('text1').par.fontalpha = 0
 	op.WINDOW.par.winop = op.LEVEL2.op('OUT')
 	op('circle1').par.radiusx = 0
 	op('circle1').par.radiusy = 0
+
 # to start round 2 after completing round 1
 	op.LEVEL2.op('circle1').par.radiusx = 40
 	op.LEVEL2.op('circle1').par.radiusy = 40
@@ -15,11 +17,13 @@ def onDone(timerOp, segment, interrupt):
 # base1: timer1_callbacks
 
 def onDone(timerOp, segment, interrupt):
+
 # to stop round 2 from running
 	op('text1').par.fontalpha = 0
 	op.WINDOW.par.winop = op.LEVEL3.op('OUT')
 	op('circle1').par.radiusx = 0
 	op('circle1').par.radiusy = 0
+
 # to start round 3 after completing round 2
 	op.LEVEL3.op('circle1').par.radiusx = 40
 	op.LEVEL3.op('circle1').par.radiusy = 40
@@ -27,12 +31,15 @@ def onDone(timerOp, segment, interrupt):
 	return
 
 # base3: timer1_callbacks
+
 def onDone(timerOp, segment, interrupt):
+
 # to stop round 3 from running
 	op('text1').par.fontalpha = 0
 	op.WINDOW.par.winop = op.LEVEL1.op('OUT')
 	op('circle1').par.radiusx = 0
 	op('circle1').par.radiusy = 0
+
 # to start round 1 after completing round 3
 	op.LEVEL1.op('circle1').par.radiusx = 40
 	op.LEVEL1.op('circle1').par.radiusy = 40
