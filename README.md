@@ -15,3 +15,5 @@ The game has three rounds, each slightly different than the previous one. When t
 
 # Additional Notes
 To reset the camera detection, simply move your hand out of the frame. You can continue moving the box once your hand is in frame again. 
+
+AUTHOR: Tanisha Sahni
