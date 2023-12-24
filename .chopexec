@@ -1,4 +1,4 @@
-# base2: chopexec1
+# chopexec1
 
 def onValueChange(channel, sampleIndex, val, prev):
 	
