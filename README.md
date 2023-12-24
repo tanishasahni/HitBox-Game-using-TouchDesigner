@@ -6,10 +6,10 @@ Hand tracking plugin is from [torinmb/mediapipe-touchdesigner](https://github.co
 <img width="1512" alt="HitBox" src="https://github.com/tanishasahni/HitBox-Game-using-TouchDesigner/assets/148817753/1247ac0f-9ae2-4231-84c4-e4121fd39f83">
 
 # Objective
-Use your hand to control the hitbox in attempt to touch the moving red circle. Timing and precision are crucial to successfully aim for the target.
+Use your hand to control the hitbox in an attempt to touch the moving red circle. Timing and precision are crucial to aim for the target successfully.
 
 # Gameplay
-There are three rounds to the game, each slightly difficult than the previous one. When the player successfully aligns the hitbox with the circle, the next round will start after "WINNER" is briefly displayed. After the player completes all three rounds, the game will reset and start from round one again.
+The game has three rounds, each slightly different than the previous one. When the player successfully aligns the hitbox with the circle, the next round will start after "WINNER" is briefly displayed. After the player completes all three rounds, the game will reset and start from round one again.
 
 ![WINNER](https://github.com/tanishasahni/HitBox-Game-using-TouchDesigner/assets/148817753/e0114564-2000-4833-a04e-78f859173639)
 
