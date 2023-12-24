@@ -3,6 +3,8 @@ A game created in TouchDesigner that uses hand tracking to move a hitbox in atte
 
 Hand tracking plugin is from [torinmb/mediapipe-touchdesigner](https://github.com/torinmb/mediapipe-touchdesigner).
 
+<img width="1512" alt="Screenshot 2023-12-23 at 9 39 00 PM" src="https://github.com/tanishasahni/HitBox-Game-using-TouchDesigner/assets/148817753/9eec2674-1a44-4786-82b1-b39f37af14f4">
+
 # Objective
 Use your hand to control the hitbox in attempt to touch the moving red circle. Timing and precision are crucial to successfully aim for the target.
 
