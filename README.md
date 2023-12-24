@@ -1,7 +1,7 @@
 # HitBox-Game-using-TouchDesigner
 A game created in TouchDesigner that uses hand tracking to move a hitbox in attempt to catch the moving circle.
 
-Hand tracking plugin is from [torinmb/mediapipe-touchdesigner](https://github.com/torinmb/mediapipe-touchdesigner).
+Hand tracking plugin is from [torinmb/mediapipe-touchdesigner](https://github.com/torinmb/mediapipe-touchdesigner). Download the MediaPipe tox and the hand tracking tox in the "toxes" folder to run the game.
 
 <img width="1512" alt="HitBox" src="https://github.com/tanishasahni/HitBox-Game-using-TouchDesigner/assets/148817753/1247ac0f-9ae2-4231-84c4-e4121fd39f83">
 
