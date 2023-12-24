@@ -1,0 +1,10 @@
+# base2: chopexec1
+
+def onValueChange(channel, sampleIndex, val, prev):
+	
+	x = op('trigger1')['r']
+	if x == 1:
+		op('text1').par.fontalpha = 1
+		op('timer1').par.start.pulse()
+		
+	return
